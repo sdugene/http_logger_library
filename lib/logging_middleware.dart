@@ -1,6 +1,6 @@
-import 'package:http_logger/logger.dart';
-import 'package:http_middleware/http_middleware.dart';
-import 'package:http_logger/log_level.dart';
+import 'package:http_logger_library/logger.dart';
+import 'package:http_middleware_library/http_middleware.dart';
+import 'package:http_logger_library/log_level.dart';
 
 class HttpLogger implements MiddlewareContract {
   LogLevel logLevel;

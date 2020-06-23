@@ -1,6 +1,6 @@
-import 'package:http_logger/log_level.dart';
-import 'package:http_middleware/models/request_data.dart';
-import 'package:http_middleware/models/response_data.dart';
+import 'package:http_logger_library/log_level.dart';
+import 'package:http_middleware_library/models/request_data.dart';
+import 'package:http_middleware_library/models/response_data.dart';
 import 'dart:convert';
 
 class Logger {

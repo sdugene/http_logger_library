@@ -1,12 +1,10 @@
-name: http_logger
-description: A logging middleware for Dart's http module.
-version: 1.0.0
-author: Gurleen Sethi <sarusethi@rocketmail.com>
-homepage: http://www.github.com/gurleensethi
+name: http_logger_library
+description: A logging middleware for Dart's http module forked from TEDConsulting/http_logger.
+homepage: https://github.com/sdugene/http_logger_library
+version: 0.12.1
 
 dependencies:
-  http_middleware: "^1.0.0"
+  http_middleware_library: "^0.12.1+hotfix.1"
 
 environment:
-  sdk: ">=2.0.0-dev.28.0 <3.0.0"
-  flutter: ">=0.1.4 <2.0.0"
+  sdk: ">=2.1.0 <3.0.0"
